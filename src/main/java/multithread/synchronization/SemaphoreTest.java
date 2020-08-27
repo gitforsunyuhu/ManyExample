@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Semaphore示例
+ * 此类和操作系统中的信号量相似，可以控制对互斥资源的访问数量
  */
 public class SemaphoreTest {
     public static void main(String[] args) throws InterruptedException {
