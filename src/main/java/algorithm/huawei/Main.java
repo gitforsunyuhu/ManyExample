@@ -1,10 +1,17 @@
 package algorithm.huawei;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        Queue queue = new LinkedList<>();
+        queue.add("a");
+        queue.offer("b");
+
         Scanner sc = new Scanner(System.in);
         String numbers = sc.nextLine();
         //System.out.println(Integer.MAX_VALUE);

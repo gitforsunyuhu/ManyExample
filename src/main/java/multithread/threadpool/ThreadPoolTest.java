@@ -13,6 +13,7 @@ import static java.util.concurrent.Executors.*;
  */
 public class ThreadPoolTest {
     public static void main(String[] args) {
+        // 在阿里巴巴Java变成规范中，提倡使用ThreadPoolExecutor来创建线程池
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(0, Integer.MAX_VALUE,
                 60L, TimeUnit.SECONDS,
                  new SynchronousQueue<Runnable>());

@@ -15,6 +15,7 @@ public class BasicTypeClassIsFinal {
     String  string =new String("121e1231");
     StringBuffer sb = new StringBuffer("ssss");
     StringBuilder stringBuilder = new StringBuilder("aaaa");
+
     /**
      * 以上都是final类型的，不可以继承
      */
